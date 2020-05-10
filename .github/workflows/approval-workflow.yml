@@ -1,1 +1,2 @@
-
+name: team awesome'S approval workfow
+on: pull_request_reviewed
