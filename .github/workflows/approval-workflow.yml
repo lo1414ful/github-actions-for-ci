@@ -1,2 +1,5 @@
 name: team awesome'S approval workfow
-on: pull_request_reviewed
+on: pull_request_review
+jobs:
+  labelWhenApproved:
+    runs-on:ubuntu-latest
